@@ -1,0 +1,304 @@
+/* Option 2: Import via CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,300&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+.navbarr{
+    background-color: rgba(22, 22, 23, 0.88);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbarr ul {
+    color: rgb(219, 218, 218,0.88);
+    list-style: none;
+    font-size: 12px;
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+.bi-list{
+    display: none;
+}
+.navbarr ul li{
+    padding: 20px;
+}
+.navbarr ul li:hover{
+    cursor: pointer;
+    color: azure;
+}
+.link{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    align-items: center;
+}
+.link a{
+    text-decoration: none;
+    color: aqua;
+}
+.message{
+    background-color: #fff;
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(14, 107, 76);
+}
+.container0{
+    background-color:#fff ;
+    margin-top: 3rem;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+.text0{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.container0 .text{
+    color: black;
+    padding-top: 50px;
+}
+h2{
+    font-weight: 400;
+}
+.text a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: rgba(46, 100, 226, 0.88);
+}
+/* second container */
+.container1{
+    background-color: black;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.container1 div{
+    width: 80%;
+    padding-top: 50px;
+}
+.container1 .img1{
+    height: 70vh;
+    width: 96%;
+    background-image: url(./assets/container1.jpg);
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text h1{
+    font-size: 45px;
+}
+.container2 .text{
+    padding-top: 50px;
+    color: rgb(42, 35, 35);
+    background-image: url(./assets/container2.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:48% 49%;
+    grid-gap: 15px;
+    justify-content: center;
+}
+.grid-item{
+    padding: 20px;
+    text-align: center;
+}
+#link{
+    width: 60%;
+}
+#link a{
+    font-size: 15px;
+}
+#grid1 .img{
+    background-image: url(./assets/promo_switch_to_iphone__dcdfmymgd5ci_large.jpg);
+    width: 80%;
+    height:30vh;
+    background-position: center;
+    background-size: cover;
+}
+#grid2{
+    width: 100%;
+    height: 70vh;
+    background-image: url(./assets/promo_macbook_air_15_midnight__3zojl1nanrme_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#grid3{
+    background-image: url(./assets/promo_apple_watch_series_8_spring__d9hfvufh7hyu_large_2x.jpg);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#grid3 .text{
+    color: white;
+}
+#grid3 span{
+    width: 50%;
+}
+#grid4 {
+    width: 100%;
+    height: 70vh;
+    background-image: url(./assets/promo_ipadpro_refresh__evi9utuixwuq_large.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-position: top;
+}
+#grid4 .text{
+    color: white;
+}
+#grid4 span{
+    width: 70%;
+}
+#grid5 {
+    width: 100%;
+    height: 70vh;
+    background-image: url(./assets/promo_airpods_pro_avail__gaxggskofx6y_large.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-position: top;
+}
+#grid5 .text{
+    color: white;
+}
+#grid5 span{
+    width: 70%;
+}
+#grid6 {
+    width: 100%;
+    height: 70vh;
+    background-image: url(./assets/iphone_tradein_promo__d5au3rkw5kuq_large.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-position: top;
+}
+#grid6 span{
+    width: 70%;
+}
+.grid-item .text span{
+    width: 30%;
+}
+.grid-item .text span a{
+    font-size: 15px;
+}
+a:hover{
+    color: red;
+    border-bottom: #bd6161;
+}
+
+/* Coursel bootstrap */
+
+#carouselExampleCaptions{
+    padding: 20px;
+    height: auto;
+    z-index: -1;
+}
+
+/* footer */
+.footer-container{
+    margin-top: 15px;
+    width: 100%;
+    height:auto;
+    background-color:#f5f5f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.footer{
+    width: 70%;
+    font-weight: 400;
+    font-size: 12px;
+    list-style: none;
+    color: gray;
+}
+.hr{
+    height: 2px;
+    width: 70%;
+    margin: 20px 0px;
+    background-color:rgb(193, 189, 189);
+}
+.footer li{
+    padding: 5px;
+}
+.footer-grid{
+    display: grid;
+    width: 70%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    color: rgb(59, 59, 59);
+}
+.grid h6{
+    margin-top: 15px;
+}
+.grid a{
+    text-decoration: none;
+    color:grey;
+    font-size: 12px;
+}
+.grid a:hover{
+    color: darkgrey;
+    text-decoration:underline;
+}
+.footerend{
+    width: 70%;
+    color: gray;
+   justify-content: flex-start;
+}
+.footerend a{
+    color: rgb(34, 137, 189);
+    font-size: 12px;
+    text-decoration: none;
+}
+.footerend h6{
+    margin-bottom: 5px;
+}
+#footerend{
+    display: flex;
+    align-items: center;
+}
+#footerend h6{
+    margin-right: 30px;
+    margin-top: 8px;
+}
+#footerend ul{
+    list-style: none;
+}
+#footerend ul a{
+    color: grey;
+    text-decoration: none;
+
+}
+
+/*  */
